@@ -10,7 +10,8 @@ import org.apache.logging.log4j.Logger;
 
 @Mod("christmascraft")
 public class ChristmasCraft {
-    private static final Logger LOGGER = LogManager.getLogger();
+    public static final Logger LOGGER = LogManager.getLogger();
+    public static final String MOD_ID = "christmascraft";
 
     public ChristmasCraft() {
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
