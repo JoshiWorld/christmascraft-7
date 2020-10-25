@@ -11,6 +11,6 @@ public class ModItems {
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChristmasCraft.MOD_ID);
 
     // Items
-    public static final RegistryObject<Item> RUBY = ITEMS.register("ruby", ItemBase::new);
+    public static final RegistryObject<Item> GINGERBREAD = ITEMS.register("gingerbread", ItemBase::new);
 
 }
