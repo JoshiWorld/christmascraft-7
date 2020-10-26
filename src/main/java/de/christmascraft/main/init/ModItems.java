@@ -1,7 +1,8 @@
 package de.christmascraft.main.init;
 
 import de.christmascraft.main.ChristmasCraft;
-import de.christmascraft.main.items.ItemBase;
+import de.christmascraft.main.items.CandyCane;
+import de.christmascraft.main.items.GingerBread;
 import net.minecraft.item.Item;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
@@ -11,6 +12,7 @@ public class ModItems {
     public static DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, ChristmasCraft.MOD_ID);
 
     // Items
-    public static final RegistryObject<Item> GINGERBREAD = ITEMS.register("gingerbread", ItemBase::new);
+    public static final RegistryObject<GingerBread> GINGERBREAD = ITEMS.register("gingerbread", GingerBread::new);
+    public static final RegistryObject<CandyCane> CANDY_CANE = ITEMS.register("candy_cane", CandyCane::new);
 
 }
