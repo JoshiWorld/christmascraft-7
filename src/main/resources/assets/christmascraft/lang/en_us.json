@@ -1,5 +1,10 @@
 {
+  "itemGroup.christmasCraft": "ChristmasCraft",
   "item.christmascraft.gingerbread": "Lebkuchenmann",
   "item.christmascraft.candy_cane": "Zuckerstange",
-  "itemGroup.christmasCraft": "ChristmasCraft"
+
+  "item.christmascraft.candy_helmet": "Zuckerhelm",
+  "item.christmascraft.candy_chestplate": "Zuckerpanzer",
+  "item.christmascraft.candy_leggings": "Zuckerhose",
+  "item.christmascraft.candy_boots": "Zuckerfüße"
 }
